@@ -12,7 +12,7 @@ html,body {
 }
 
 header {
-    padding: 10px 100px;
+    padding: 10px 90px;
     position: relative;
     height: 100px;
     display: flex;
@@ -52,8 +52,7 @@ header div .Home a {
 
  ul {
     display: flex;
-    padding-top: 7px;
-    padding-right: 20px;
+    padding-top: 15px;
     gap:30px;
     width: 100%;
     height: 100%;
@@ -69,9 +68,9 @@ header div ul li {
 ul li a {
     text-decoration: none;
     color: black;
-    letter-spacing: 2px;
-    font-size: 15px;
-    font-weight:500;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight:400;
     text-align: center;
 }
 
@@ -83,7 +82,7 @@ ul li a:hover {
 header div .co{
     background-color: #FE3E3F;
     border-radius: 20px;
-    padding: 8px 15px;
+    padding: 8px 20px;
     margin: 20px;
     letter-spacing: 2px;
 }
@@ -159,6 +158,7 @@ header div .co a{
 
 .cointainer {
     position: relative;
+    padding-bottom: 200px;
 }
 
 .secondsection {
@@ -188,14 +188,34 @@ header div .co a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 220px 100px ;
+    padding: 130px 100px ;
     position: absolute;
+}
+
+.secondsection .background .textcontent {
+    height: 350px;
 }
 
 .secondsection .background .textcontent h4 {
     color: #FE3E3F;
     text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    margin-bottom: 20px;
 }
+
+.secondsection .background .textcontent h2{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.secondsection .background .textcontent h2 .text1{
+    margin-top: 10px;
+}
+
 
 .secondsection .background .textcontent h2 .Digital{
     color: #00A4ED;
@@ -205,3 +225,50 @@ header div .co a{
     color: #FE3E3F;
     text-transform: uppercase;
 }
+
+.secondsection .background .textcontent p{
+    width:570px;
+}
+
+.secondsection .background .textcontent p a{
+    text-decoration: none;
+}
+
+.secondsection .background .input{
+    position: relative;
+    margin-top: 40px;
+}
+
+.secondsection .background .input input:hover{
+    border : none ;
+    outline: 0;
+}
+
+.secondsection .background .input button{
+    position: absolute;
+    margin-right: 1px;
+    right: 150px;
+    top: 13px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #FE3E3F;
+    padding: 10px 20px;
+}
+
+.secondsection .background .inputsubmit {
+    width: 460px;
+    border: none;
+    border-radius: 30px;
+    height: 70px;
+    background-color: #00A4ED;
+    color: #FFFFFF;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.secondsection .background .piccontent img{
+    margin-left: 70px;
+}
+
+
