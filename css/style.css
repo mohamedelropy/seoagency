@@ -22,6 +22,7 @@ header {
     background-color: #FAFAFA;
 }
 
+
 header .logo a{
     text-decoration: none;
     color: #00A4ED;
@@ -156,6 +157,10 @@ header div .co a{
 
 /* second section */
 
+.cointainer {
+    position: relative;
+}
+
 .secondsection {
     width: 100%;
     height: 100vh;
@@ -176,16 +181,15 @@ header div .co a{
 }
 
 .secondsection img{
-    position: relative; 
     height: 50%;
 }
 
 .secondsection .background {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 220px 100px ;
+    position: absolute;
 }
 
 .secondsection .background .textcontent h4 {
